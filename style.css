@@ -1,0 +1,149 @@
+:root {
+    --fondo: rgb(12, 16, 20);
+    --text: white;
+}
+
+h1{
+    font-weight: 300;
+    font-size: 5vh;
+}
+h2{
+    font-weight: 300;
+    font-size: 2.5vh;
+}
+
+
+body {
+    background-color: var(--fondo);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.tarjetainfo {
+
+    height: 45vh;
+    width: 100%;
+    border-bottom: 2px rgb(70, 70, 70) solid;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text);
+}
+.horizontal{
+    height: 25vh;
+    width: 110vh;
+    display: flex;
+    
+    
+}
+.pfp img{
+    height: 25vh;
+    width: 25vh;
+    border-radius: 50vh;
+    margin-right: 10vh;
+    margin-top: 3vh;
+}
+.descripcion{
+    display: flex;
+    flex-direction: column;
+    height: 25vh;
+}
+.nombre{
+    height: 30%;
+    width: 100%;
+}
+.display{
+    height: 30%;
+    width: 100%;
+}
+.estadisticas{
+    height: 30%;
+    width: 100%;
+}
+.opciones{
+    margin-top: 6vh;
+    display: flex;
+    justify-content: space-between;
+    width: 110vh;
+    height: 6vh;
+}
+.seguir{
+    background-color: rgb(86, 86, 255);
+    border-radius: 2vh;
+    height: 6vh;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    transition: .2s;
+}
+.seguir:hover{
+    background-color: rgb(69, 69, 245);
+    border-radius: 2vh;
+    height: 6vh;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    transition: .2s;
+
+}
+.opciones img{
+    height: 100%;
+    width: 6.5vh;
+    border-radius: 2vh;
+    transition: .3s;
+}
+.opciones img:hover{
+    opacity: 80%;
+    height: 105%;
+    width: 7vh;
+    border-radius: 2vh;
+    transition: .3s;
+}
+
+.secciones{
+
+    display: flex;
+    height: 10vh;
+    width: 60vh;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.secciones img{
+    height: 6vh;
+    width: 8vh;
+    margin-top: 2vh;
+    opacity: 60%;
+    transform: .3s;
+}
+.secciones img:hover{
+    height: 6vh;
+    width: 8vh;
+    margin-top: 2vh;
+    opacity: 100%;
+    transition: .3s;
+}
+
+
+.contenido{
+    height: 55vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     color: var(--text);
+}
+.contenido img{
+    height: 10vh;
+    width: 10vh;
+   
+}
