@@ -1,8 +1,13 @@
 :root {
     --fondo: rgb(12, 16, 20);
     --text: white;
+    
 }
-
+.claro{
+    --fondo: white;
+    --text: rgb(12, 16, 20);
+    transition: 1s;
+}
 h1{
     font-weight: 300;
     font-size: 5vh;
@@ -20,6 +25,7 @@ body {
     align-items: center;
     margin-top: 3vh;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 1s;
 
 }
 
@@ -123,6 +129,7 @@ body {
     margin-top: 2vh;
     opacity: 60%;
     transform: .3s;
+    border-radius: 15vh;
 }
 .secciones img:hover{
     height: 6vh;
@@ -145,5 +152,6 @@ body {
 .contenido img{
     height: 10vh;
     width: 10vh;
+    border-radius: 15vh;
    
 }
